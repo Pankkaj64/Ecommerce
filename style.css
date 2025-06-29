@@ -149,6 +149,10 @@ REUSABLE SELECTOR
     padding: 0 0.75em;
 }
 
+.mobile-hide {
+    display: none;
+}
+
 
 
 
@@ -279,6 +283,12 @@ RESPONSIVE
     }
     .desktop-hide{
         display: none;
+    }
+    .mobile-hide {
+        display: block;
+    }
+    .logo a {
+        margin-right: 2em;
     }
 }
 
